@@ -1,0 +1,261 @@
+header,
+section,
+footer {
+    overflow-x: clip;
+}
+
+.container {
+    clip-path: inset(-100% -85px);
+}
+
+.dashed-line {
+    position: absolute;
+    z-index: -1;
+}
+
+.radial-gradient {
+    position: absolute;
+    z-index: -2;
+    width: 885px;
+    height: 885px;
+    border-radius: 100%;
+    background: radial-gradient(ellipse at center, rgba(219, 0, 0, 54%) 0%, rgba(205, 0, 0, 0%) 70%);
+}
+
+.background-dashed-line,
+.background-dashed-circle {
+    position: absolute;
+    z-index: -3;
+}
+
+.trails {
+    position: absolute;
+    z-index: -4;
+}
+
+.header-background {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 70%);
+    z-index: -10;
+}
+
+.header {
+    .dashed-line {
+        top: 0;
+        right: -85px;
+    }
+}
+
+.about {
+    .dashed-line {
+        top: -160px;
+        left: -85px;
+    }
+
+    .radial-gradient:nth-of-type(1) {
+        width: 655px;
+        height: 655px;
+        top: -380px;
+        right: -446px;
+    }
+
+    .radial-gradient:nth-of-type(2) {
+        width: 655px;
+        height: 907px;
+        bottom: -450px;
+        left: -491px;
+    }
+
+    .background-dashed-circle.r284 {
+        top: -32px;
+        left: -133px;
+    }
+
+    .background-dashed-circle.r116.one {
+        top: 181px;
+        left: 373px;
+    }
+
+    .background-dashed-circle.r116.two {
+        bottom: 0;
+        left: 507px;
+    }
+
+    .background-dashed-circle.r189 {
+        bottom: 0;
+        left: 736px;
+    }
+}
+
+.furniture {
+    .radial-gradient {
+        width: 655px;
+        height: 655px;
+        top: 90px;
+        right: -446px;
+    }
+
+    .trails {
+        top: -745px;
+        left: -329px;
+    }
+}
+
+.vehicle {
+    .dashed-line {
+        top: -110px;
+        right: -85px;
+    }
+
+    .radial-gradient {
+        top: -220px;
+        left: -60px;
+        opacity: 60%;
+    }
+
+    .background-dashed-circle.r116 {
+        top: -173px;
+        left: 95px;
+    }
+
+    .background-dashed-circle.r189 {
+        top: -103px;
+        left: 338px;
+    }
+}
+
+.marine {
+    .dashed-line {
+        top: -105px;
+        left: -151px;
+    }
+
+    .radial-gradient {
+        width: 833px;
+        height: 833px;
+        top: 100px;
+        left: -494px;
+    }
+
+    .background-dashed-circle.r116 {
+        top: -10px;
+        right: 537px;
+    }
+
+    .background-dashed-circle.r189 {
+        top: -103px;
+        right: 293px;
+    }
+}
+
+.commercial {
+    .radial-gradient:nth-of-type(1) {
+        top: 145px;
+        right: -276px;
+        opacity: 60%;
+    }
+
+    .radial-gradient:nth-of-type(2) {
+        top: 750px;
+        right: 249px;
+        opacity: 30%;
+    }
+
+    .trails {
+        top: -670px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.facts {
+    .dashed-line {
+        top: -55px;
+        right: -85px;
+    }
+
+    .radial-gradient {
+        top: 111px;
+        left: -19px;
+        opacity: 60%;
+    }
+
+    .background-dashed-circle.r350 {
+        top: 280px;
+        left: -282px;
+    }
+
+    .background-dashed-circle.r157.one {
+        top: 467px;
+        left: 157px;
+    }
+
+    .background-dashed-circle.r124.one {
+        top: 358px;
+        left: 794px;
+    }
+
+    .background-dashed-circle.r124.two {
+        top: 488px;
+        right: 68px;
+    }
+
+    .background-dashed-circle.r244 {
+        top: 280px;
+        right: -188px;
+    }
+
+    .background-dashed-circle.r157.two {
+        top: 866px;
+        right: 102px;
+    }
+
+    .background-dashed-line {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .background-dashed-line.one {
+        top: 210px;
+    }
+
+    .background-dashed-line.two {
+        top: 498px;
+    }
+
+    .background-dashed-line.three {
+        top: 691px;
+    }
+
+    .background-dashed-line.four {
+        top: 867px;
+    }
+}
+
+.feedback {
+    .dashed-line {
+        bottom: -220px;
+        left: -254px;
+    }
+
+    .radial-gradient:nth-of-type(1) {
+        top: -317px;
+        right: -484px;
+        opacity: 60%;
+    }
+
+    .radial-gradient:nth-of-type(2) {
+        bottom: -540px;
+        left: -461px;
+        opacity: 60%;
+    }
+
+    .trails {
+        top: -694px;
+        left: -277px;
+        rotate: 3.61deg;
+    }
+}
